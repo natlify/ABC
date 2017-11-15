@@ -1,18 +1,13 @@
 // Problem #6
 // https://www.hackerearth.com/practice/basic-programming/implementation/basics-of-implementation/practice-problems/algorithm/count-numbers-46/
 
-#include <ctype.h>
-#include <iostream>
-#include <stdio.h>
-
-typedef long long int lli;
+#include <bits/stdc++.h>
 using namespace std;
 
-lli t, n;
+bool isd(char c) { return (c >= '0' && c <= '9') ? true : false; }
+int t, n;
 string s;
-
 int main(int argc, char const *argv[]) {
-
   cin >> t;
   while (t--) {
     cin >> n;
@@ -20,7 +15,7 @@ int main(int argc, char const *argv[]) {
     int count = 0;
     for (int i = 0; i <= n; i++) {
       c = getchar();
-      if (isdigit(c) && !isdigit(prev)) {
+      if (isd(c) && !isd(prev)) {
         count++;
       }
       prev = c;
