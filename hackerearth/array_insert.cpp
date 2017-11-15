@@ -1,36 +1,29 @@
 // Problem #7
 // https://www.hackerearth.com/practice/basic-programming/implementation/basics-of-implementation/practice-problems/algorithm/array-insert/
 
-#include <bits/stdc++.h>
-typedef long long int lli;
+#include <iostream>
+
 using namespace std;
-lli n, q, x, y, z, *a;
+int n, q, x, y, z, *a, i;
 
 int main(int argc, char const *argv[]) {
   cin >> n >> q;
-  a = new lli[n];
-  int i = 0;
+  a = new int[n];
   while (n--) {
     cin >> a[i++];
   }
   while (q--) {
     cin >> z >> x >> y;
-    switch (z) {
-    case 1:
+    if (z == 1) {
       a[x] = y;
-      break;
-    case 2:
-      if (x > y) {
-        cout << -1 << '\n';
-        break;
-      }
-      lli sum = 0;
+    } else if (z == 2 && x > y) {
+      int sum = 0;
       while (x <= y) {
         sum += a[x++];
       }
       cout << sum << '\n';
-      break;
-    }
+    } else
+      cout << -1 << '\n';
   }
   return 0;
 }
