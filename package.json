@@ -1,0 +1,26 @@
+{
+  "name": "abc",
+  "version": "1.0.0",
+  "description": "competitive coding problem-solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arjith-Natarajan/ABC.git"
+  },
+  "keywords": [
+    "coding"
+  ],
+  "author": "Arjith Natarajan <arjith496@gmail.com> (https://arjith-natarajan.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Arjith-Natarajan/ABC/issues"
+  },
+  "homepage": "https://github.com/Arjith-Natarajan/ABC#readme",
+  "devDependencies": {
+    "eslint": "5.4.0",
+    "eslint-config-google": "0.9.1"
+  }
+}
