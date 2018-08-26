@@ -1,6 +1,6 @@
 // https://app.codesignal.com/interview-practice/task/xrFgR63cw7Nch4vXo
 //
-const groupingDishes = dishes => {
+groupingDishes = dishes => {
   const ingMap = dishes.reduce(
     (acc, e) =>
       e.reduce((a, ele, index, array) => {
@@ -15,9 +15,9 @@ const groupingDishes = dishes => {
     new Map()
   );
   return Array.from(ingMap.keys())
-    .sort((a, b) => a > b)
+    .sort((a, b) => (a > b ? 1 : -1))
     .map(item => {
-      return [item, ...ingMap.get(item).sort((a, b) => a > b)];
+      return [item, ...ingMap.get(item).sort((a, b) => (a > b ? 1 : -1))];
     })
     .filter(item => item.length > 2);
 };
