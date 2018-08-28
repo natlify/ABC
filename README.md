@@ -1,6 +1,6 @@
 # Always Be Coding (ABC)
 
-> Code Like Tmrw Depends On IT! ~ @arjithn
+> Code Like Tmrw Depends On IT! ~ [@arjithn](https://twitter.com/arjithn)
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)
