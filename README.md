@@ -1,5 +1,5 @@
 # Always Be Coding (ABC)
-
+[<div style="text-align:center"><img alt="code-for-tmrw" align="centre" src="https://media.giphy.com/media/ZgBHqRyBXetos/giphy.gif"></div>](https://giphy.com/gifs/coding-give-a-little-hackny-ZgBHqRyBXetos)
 > Code Like Tmrw Depends On IT! ~ [@arjithn](https://twitter.com/arjithn)
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
