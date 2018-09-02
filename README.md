@@ -1,5 +1,5 @@
 # Always Be Coding (ABC)
-[<div style="text-align:center"><img alt="code-for-tmrw" align="centre" src="https://media.giphy.com/media/ZgBHqRyBXetos/giphy.gif"></div>](https://giphy.com/gifs/coding-give-a-little-hackny-ZgBHqRyBXetos)
+
 > Code Like Tmrw Depends On IT! ~ [@arjithn](https://twitter.com/arjithn)
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
@@ -8,12 +8,17 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/Arjith-Natarajan/ABC.svg)
 ![GitHub](https://img.shields.io/github/license/Arjith-Natarajan/ABC.svg)
 
-
+[<img align="left" src="https://media.giphy.com/media/ZgBHqRyBXetos/giphy.gif" width="300px" alt="A">](https://media.giphy.com/media/ZgBHqRyBXetos/giphy.gif)
 
 ABC is a master repo containing all code I've written solving problems on various popular competitive coding sites and other programming platforms,like HackerEarth, HackerRank, CodeChef, SPOJ to name a few.
 
-The purpose of this repository is store my solutions and understand how my coding skills have improved over time. Explore to know more.
+The purpose of this repository is store my solutions and understand how my coding skills have improved over time. 
+
+Explore to know more.
+
 Let's get started.
+
+
 
 ## How to Use this Repo
 
